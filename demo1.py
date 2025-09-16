@@ -12,3 +12,5 @@ print(message)
 print (msg)
 
 y = 4.5
+print(y)
+msg = "hello"
