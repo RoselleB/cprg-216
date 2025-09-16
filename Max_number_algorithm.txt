@@ -1,0 +1,29 @@
+The problem is if you are given three numbers, 
+determine which is the largest 
+
+(a, b, c)
+
+as an example (3,2, 8)
+
+algorithm (this algorthm is psuedo code)
+-------------------------------
+- Read a, b, c,  # (2, 3, 1) 
+-if b > a        # (3, 3, 1)
+    a = b
+- if c > a       # (3, 3, 1)
+    a = c
+- display a 
+
+Patrick algorithm : this is inefficient
+------------------------
+- Read a, b, c,  # (2, 3, 1)
+- define max     
+-if b > a 
+        max = b
+    else 
+        max = a
+
+- if c > max
+    display c
+else
+    display max

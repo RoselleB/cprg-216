@@ -1,0 +1,4 @@
+- read grade
+-if grade >=90
+    then
+        letter_grade = "A"
